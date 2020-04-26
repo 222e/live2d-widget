@@ -101,6 +101,7 @@
 	color: #5b6c7d;
 	cursor: pointer;
 	display: block;
+	padding: 0px 6px 0px 0px;
 	line-height: 30px;
 	text-align: center;
 	transition: color .3s;
@@ -109,6 +110,11 @@
 #waifu-tool span:hover {
 	color: #0684bd; /* #34495e */
 }
+
+//自定义添加
+.fa-times:before {
+	content: "\f00d";
+	padding: 0px 5px 0px 3px;
 
 @keyframes shake {
 	2% {
