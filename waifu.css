@@ -98,7 +98,7 @@
 }
 
 #waifu-tool span {
-	color: #5b6c7d;
+	color: rgba(0,0,0,.1);;
 	cursor: pointer;
 	display: block;
 	padding: 0px 6px 0px 0px;
